@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Signup {
+    width: 1100px;
+    height: 100vh;
+    background-image: url("../../assets/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.signupcard{
+    background-color: white;
+    height: 450px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-right: 40px;
+}
+
+.signupcard form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 80px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+.blur-background {
+    filter: blur(5px); 
+}
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup {
+    text-align: center;
+}
+
+.ok-btn {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.registrationloginSuccess{
+    font-size: 1.5rem;
+}

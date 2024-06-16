@@ -1,0 +1,67 @@
+.Home {
+    display: flex;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+}
+
+.topMenu {
+    display: flex;
+    justify-content: center; /* Center the menu */
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.halfMenuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Each item takes half of the width */
+    text-align: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.username {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.post-text {
+    margin: 10px 0;
+}
+
+.action-button {
+    margin-right: 10px;
+}
+
+.post-image{
+    margin-bottom: 20px;
+    height:400px
+}

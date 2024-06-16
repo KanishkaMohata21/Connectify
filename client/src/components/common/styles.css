@@ -1,0 +1,21 @@
+.Sidebar{
+    width: 200x;
+    justify-content: flex-start;
+}
+
+.webName{
+    font-size: 1.8rem;
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+
